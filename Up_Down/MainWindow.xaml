@@ -1,0 +1,34 @@
+﻿<Window x:Class="Up_Down.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Up_Down"
+        mc:Ignorable="d"
+        Title="Saga sola
+        " Height="450" 
+        Width="800">
+    <Grid>
+        <StackPanel Height="200" Width="800" Orientation="Horizontal">
+            <Button Margin="225,10,0,0" 
+                    Content="DOWN" 
+                    Height="50" 
+                    Width="60" 
+                    Background="Transparent" 
+                    Click="Down_Click" />
+            <ScrollBar x:Name="scrollBar" 
+                       Margin="20,10,0,0" 
+                       Width="200" 
+                       Height="50" 
+                       Orientation="Horizontal"/>
+            <Button Margin="15,10,0,0" 
+                    Content="UP" 
+                    Height="50" 
+                    Width="60"  
+                    Background="Transparent" 
+                    Click="Up_Click" />
+        </StackPanel>
+    </Grid>
+</Window>
+
+
